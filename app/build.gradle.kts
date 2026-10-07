@@ -14,7 +14,7 @@ android {
         targetSdk = 37
         versionCode = 1
         // Mirrors the upstream waterctl version this port implements the protocol of.
-        versionName = "2.1.4"
+        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
