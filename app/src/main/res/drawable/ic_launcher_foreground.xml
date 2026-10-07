@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Adaptive icon foreground: a white water droplet with the Bluetooth rune cut out of it.
+  Kept inside the central 72x72 safe zone so no launcher mask can clip it. Also used as the
+  monochrome layer, where Android tints it from the system palette.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,24.5 C58.2,37.5 80,52 80,59 C80,76.4 70.2,81 54,81 C37.8,81 28,76.4 28,59 C28,52 49.8,37.5 54,24.5 Z M53.09,51.13 L58.75,55 L52.55,60 L58.75,65 L54,68.55 L49.25,65 L54.91,61.13 L53.09,58.87 L46.35,65 L54,71.45 L61.65,65 L55.45,60 L61.65,55 L54.91,48.87 Z" />
+</vector>

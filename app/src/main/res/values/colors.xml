@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand roles for the water controller app (light and dark schemes). -->
+    <color name="brand_primary">#FF00639B</color>
+    <color name="brand_primary_container">#FFCDE5FF</color>
+    <color name="brand_on_primary_container">#FF001D33</color>
+    <color name="brand_primary_dark">#FF95CCFF</color>
+    <color name="brand_primary_container_dark">#FF004A77</color>
+    <color name="brand_on_primary_container_dark">#FFCDE5FF</color>
+</resources>

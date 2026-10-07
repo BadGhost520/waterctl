@@ -1,0 +1,20 @@
+# Normalise text to LF in the repository, and let each platform check out its
+# native ending. Without this, `core.autocrlf` rewrites files on checkout and
+# every edit shows up as a whole-file diff.
+* text=auto eol=lf
+
+# The Gradle wrapper scripts must stay runnable on Unix and Windows alike.
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.bat text eol=crlf
+
+# Binary assets: never touch these.
+*.jar binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.apk binary
+*.keystore binary
+*.jks binary

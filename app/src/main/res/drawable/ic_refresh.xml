@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Refresh glyph used by the rescan button in the status card. Drawn as two stroked arcs with
+  solid arrow heads rather than a Material icon font, so the project needs no extra
+  dependency. The 24x24 viewport and ~2dp stroke match Material's icon metrics.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="?attr/colorPrimary">
+
+    <!-- Lower arc, sweeping from the right side round to the left. -->
+    <path
+        android:pathData="M19.5,12A7.5,7.5 0 0,1 6.0,17.7"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Upper arc, sweeping from the left side round to the right. -->
+    <path
+        android:pathData="M4.5,12A7.5,7.5 0 0,1 18.0,6.3"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+    <!-- Arrow head closing the upper arc, at the right. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M17.7,1.9 L23.2,7.7 L17.4,10.3 Z" />
+
+    <!-- Arrow head closing the lower arc, at the left. -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M6.3,22.1 L0.8,16.3 L6.6,13.7 Z" />
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Shared sizing for the three stacked action buttons, so they stay visually identical
+      whatever their fill style is.
+    -->
+    <dimen name="action_button_height">56dp</dimen>
+    <dimen name="action_button_text_size">17sp</dimen>
+</resources>
